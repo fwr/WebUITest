@@ -1,6 +1,5 @@
 package com.axxol;
 
-import com.axxol.base.BaseDriver;
 import com.axxol.listener.TestNGListener;
 import com.axxol.listener.ZTestReport;
 import com.axxol.utils.ExcelDataHeleper;
@@ -17,6 +16,6 @@ public class BaseCase extends ExcelDataHeleper {
     @BeforeSuite
     public void setUp(){
         logger= Logger.getLogger(BaseCase.class);
-        driver= BaseDriver.getDriver();
+//        driver= BaseDriver.getDriver();
     }
 }
